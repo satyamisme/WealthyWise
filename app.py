@@ -107,7 +107,7 @@ def main():
 
     # st.set_page_config(layout='wide')
 
-    st.title("Revolutionizing Wealth Management: Insights and Predictions for Mutual Funds")
+    st.title("Wealthy Wise")
     age = st.text_input("Please Enter your Age:",  key="age_input")
     submit = st.button("Submit Age", key='submit_age')
 
