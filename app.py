@@ -21,7 +21,7 @@ def get_session_state():
 
 def load_data():
     ''' Function Loading Data '''
-    data = pd.read_csv('./MF_India_AI.csv')
+    data = pd.read_csv('./data.csv')
     data.drop(index=data.loc[data.sharpe =='-'].index.tolist(),inplace = True)
     data.drop(index=data.loc[data.beta =='-'].index.tolist(),inplace = True)
     data.drop(index=data.loc[data.alpha =='-'].index.tolist(),inplace = True)
